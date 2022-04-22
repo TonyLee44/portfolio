@@ -1,0 +1,61 @@
+.background {
+    background-color: rgb(3, 13, 34);
+    padding: 2rem;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: .5em;
+    grid-gap: 1em;
+    margin: 20px;
+    background-color: rgb(3, 13, 34);
+}
+
+.project {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 100px;
+}
+
+.project-title {
+    color: whitesmoke;
+}
+
+.project-date {
+    color: whitesmoke;
+}
+
+.project>img {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 25px;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+
+}
+
+.project-button {
+    margin: 0;
+    padding: .5rem;
+    width: 30%;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    margin: 2rem;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+
+}
+
+.project-button:hover {
+    margin: 0;
+    width: 30%;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: red;
+    color:whitesmoke;
+    margin: 2rem;
+}

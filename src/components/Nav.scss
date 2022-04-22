@@ -1,0 +1,55 @@
+.header-container {
+    background-color: rgb(3, 13, 34);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    padding: 2rem;
+}
+
+.profile-pic {
+    width: 50vw;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.header-title {
+    text-align: center;
+    align-content: center;
+    font-size: 3em;
+    font-family: Ubuntu;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 13, 34);
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 3rem;
+}
+
+ul li a {
+    font-family: Ubuntu;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+}
+
+a:hover {
+    color: red;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "images": "assets/Thailand-home.png",
+        "title": "Gateway Project",
+        "project_date": "November 2021",
+        "github": "https://github.com/TonyLee44/Gateway",
+        "website": "https://tonylee44.github.io/Gateway/"
+    },
+    {
+        "id": 2,
+        "images": "assets/Hope-Sanctuary-home.png",
+        "title": "Hope Sanctuary Project",
+        "project_date": "November 2021",
+        "github": "https://github.com/TonyLee44/firstGroupProject",
+        "website": "https://tonylee44.github.io/firstGroupProject/"
+    },
+    {
+        "id": 3,
+        "images": "assets/Planet-Progress-home.png",
+        "title": "Planet Progress Project",
+        "project_date": "February 2022",
+        "github": "https://github.com/TonyLee44/HopeHacks",
+        "website": ""
+    },
+    {
+        "id": 4,
+        "images": "assets/ecommerce-home.png",
+        "title": "E-commerce Project",
+        "project_date": "April 2022",
+        "github": "https://github.com/TonyLee44/Ecommerce-Final/tree/master",
+        "website": "https://gone-golfing.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "images": "assets/tesla-clone.png",
+        "title": "Tesla Redesign Project",
+        "project_date": "April 2022",
+        "github": "https://github.com/rsiraj/teslaclone",
+        "website": "http://dylisthebest.c9tesla.com/"
+    }
+]

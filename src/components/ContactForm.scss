@@ -1,0 +1,42 @@
+.form-container {
+    text-align: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(3, 13, 34);
+  }
+  
+  label {
+    font-size: 40px;
+    align-items: center;
+    font-family: Ubuntu;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 100px;
+  }
+  
+  textarea {
+    width: 70%;
+    height: 15rem;
+    font-size: 20px;
+  }
+  
+  input {
+    width: 50%;
+    height: 40px;
+    font-size: 40px;
+  }
+  
+  select {
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+  }
+  
+  .red {
+    color: red;
+    font-weight: bold;
+  }

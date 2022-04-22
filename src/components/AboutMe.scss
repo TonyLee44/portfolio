@@ -1,0 +1,149 @@
+.background {
+    background-color: rgb(3, 13, 34);
+}
+
+.aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    grid-row: auto;
+    background-color: rgb(3, 13, 34);
+    padding: 3rem;
+}
+
+.myImage {
+    grid-column: 2/5;
+    grid-row: 1;
+    width: 55vw;
+    height: 120vh;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 100px;
+}
+
+// .myImage:hover {
+//     box-shadow: 5px 5px lightgrey;
+// }
+
+.aboutMe-title {
+    grid-column: 3/4;
+    grid-row: 2;
+    font-family: Ubuntu;
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.aboutMe-subtitle {
+    grid-column: 2/5;
+    grid-row: 3;
+    font-family: Ubuntu;
+    margin: 0;
+    border-radius: 0px 0px 5px 5px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.aboutMe-description {
+    grid-column: 2/5;
+    grid-row: 4/8;
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: Ubuntu;
+    font-size: large;
+}
+
+.aboutMe-description a {
+    color: lightgrey;
+}
+
+.aboutMe-description a:hover {
+    color: red;
+}
+
+.slider-container {
+    background-color: rgb(3, 13, 34);
+}
+
+.carousel-container {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navigation .prev {
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    top: 40%;
+    left: 10px;
+    font-weight: 700;
+}
+
+.navigation .next {
+    right: 10px;
+    position: absolute;
+    font-size: 25px;
+    z-index: 10;
+    top: 40%;
+    font-weight: 700;
+}
+
+.navigation .nav-btn {
+    background: rgba(255, 255, 255, 0.55);
+    cursor: pointer;
+    border-radius: 50%;
+    width: 3vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navigation .nav-btn:hover {
+    background: white;
+}
+
+.carousel {
+    margin-top: 2rem;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 25px;
+    border: 8px solid #bdbdbd;
+    box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+
+}
+
+.item {
+    position: relative;
+    display: none;
+    top: 1rem;
+    left: -0.5rem;
+
+}
+
+.main {
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    width: 46vw;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    height: 7vh;
+    border-radius: 25px;
+    font-weight: 700;
+}
