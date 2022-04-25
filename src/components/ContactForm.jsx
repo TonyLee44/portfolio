@@ -69,27 +69,37 @@ const handleSubmit = (e) => {
 return (
   <div>
     <form className="form-container">
-      <label htmlFor="first">First name:</label><br />
+      <div className="label-container">
+      <label htmlFor="first">First name:</label>
+      </div>
       <input type="text" id="first" name="first" placeholder="John" value={firstName} onChange={e => setFirstName(e.target.value)} /><br />
 
       {errorFirstName ? (<div className="red">{errorFirstName}</div>) : null}
 
-      <label htmlFor="last">Last name:</label><br />
+      <div className="label-container">
+      <label htmlFor="last">Last name:</label>
+      </div>
       <input type="text" id="last" name="last" placeholder="Doe" value={lastName} onChange={e => setLastName(e.target.value)} /><br />
 
       {errorLastName ? (<div className="red">{errorLastName}</div>) : null}
 
-      <label htmlFor="email">E-mail:</label><br />
+      <div className="label-container">
+      <label htmlFor="email">E-mail:</label>
+      </div>
       <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" value={email} onChange={e => setEmail(e.target.value)} /><br />
 
       {errorEmail ? (<div className="red">{errorEmail}</div>) : null}
 
-      <label htmlFor="comments">Comments:</label><br />
+      <div className="label-container">
+      <label htmlFor="comments">Comments:</label>
+      </div>
       <textarea type="text" name="comments" id="comments" placeholder="Leave any questions or comments here..." value={comment} onChange={e => setComment(e.target.value)}></textarea> <br />
 
       {submitted ? (<div className="red">{submitted}</div>) : null}
 
-      <button disabled={isButtonDisabled} onClick={handleSubmit} formAction="#">Submit</button>
+      <div className="label-container">
+      <button className="submit-button" disabled={isButtonDisabled} onClick={handleSubmit} formAction="#">Submit</button>
+      </div>
 
     </form>
 

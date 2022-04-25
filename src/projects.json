@@ -11,7 +11,7 @@
         "id": 2,
         "images": "assets/Hope-Sanctuary-home.png",
         "title": "Hope Sanctuary Project",
-        "project_date": "November 2021",
+        "project_date": "December 2021",
         "github": "https://github.com/TonyLee44/firstGroupProject",
         "website": "https://tonylee44.github.io/firstGroupProject/"
     },
@@ -21,13 +21,13 @@
         "title": "Planet Progress Project",
         "project_date": "February 2022",
         "github": "https://github.com/TonyLee44/HopeHacks",
-        "website": ""
+        "website": "https://hope-hacks-final.herokuapp.com/"
     },
     {
         "id": 4,
         "images": "assets/ecommerce-home.png",
         "title": "E-commerce Project",
-        "project_date": "April 2022",
+        "project_date": "March 2022",
         "github": "https://github.com/TonyLee44/Ecommerce-Final/tree/master",
         "website": "https://gone-golfing.herokuapp.com/"
     },

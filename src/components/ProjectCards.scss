@@ -34,7 +34,6 @@
     width: 20vw;
     border-radius: 25px;
     box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
-
 }
 
 .project-button {
@@ -59,3 +58,131 @@
     color:whitesmoke;
     margin: 2rem;
 }
+
+@media only screen and (max-width: 821px) {
+  
+    .projectContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: .5em;
+      grid-gap: 1em;
+      margin: 20px;
+    }
+
+    .project {
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 25px;
+        box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 100px;
+    }
+    
+    .project-title {
+        color: whitesmoke;
+        padding: 1rem;
+    }
+    
+    .project-date {
+        color: whitesmoke;
+        padding-bottom: 2rem;
+    }
+    
+    .project>img {
+        height: 20vh;
+        width: 30vw;
+        border-radius: 25px;
+        box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+    }
+    
+    .project-button {
+        margin: 0;
+        padding: .5rem;
+        width: 30%;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: whitesmoke;
+        margin: 2rem;
+        box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+    
+    }
+    
+    .project-button:hover {
+        margin: 0;
+        width: 30%;
+        padding: .5rem;
+        border-radius: 10px;
+        background-color: red;
+        color:whitesmoke;
+        margin: 2rem;
+    }
+    
+  }
+
+  @media only screen and (max-width: 500px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(3, 13, 34);
+        padding: 2rem;
+        align-items: center;
+    }
+
+    .projectContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: .5em;
+      grid-gap: 1em;
+      margin: 20px;
+    }
+
+    .project {
+        margin: 0;
+        padding: 2em;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 25px;
+        box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 100px;
+    }
+
+    .project-title {
+        color: whitesmoke;
+        padding: 1rem;
+    }
+    
+    .project-date {
+        color: whitesmoke;
+        padding-bottom: 2rem;
+    }
+
+    .project>img {
+        height: 30vh;
+        width: 60vw;
+        border-radius: 25px;
+        box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+    }
+
+    .project-button {
+        margin: 0;
+        padding: .5rem;
+        width: 30%;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: whitesmoke;
+        margin: 2rem;
+        box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 15px;
+    
+    }
+    
+    .project-button:hover {
+        margin: 0;
+        width: 30%;
+        padding: .5rem;
+        border-radius: 10px;
+        background-color: red;
+        color:whitesmoke;
+        margin: 2rem;
+    }
+  }

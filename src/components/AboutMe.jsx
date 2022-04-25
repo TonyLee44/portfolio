@@ -13,11 +13,11 @@ export default function AboutMe() {
 
 
         prev.addEventListener('click', () => {
-            nextImage('next');
+            nextImage('prev');
         })
 
         next.addEventListener('click', () => {
-            nextImage('prev');
+            nextImage('next');
         })
 
         function nextImage(direction) {
@@ -71,6 +71,22 @@ export default function AboutMe() {
                                 <div className="item">
                                     <img src="assets/ecommerce-contact.png" alt="E-commerce Contact" />
                                     <div className="caption">E-commerce Contact</div>
+                                </div>
+                                <div className="item">
+                                    <img src="assets/Tesla-home.png" alt="Tesla Redesign" />
+                                    <div className="caption">Tesla Redesign</div>
+                                </div>
+                                <div className="item">
+                                    <img src="assets/Hope-Sanctuary-home.png" alt="Hope Sanctuary Home" />
+                                    <div className="caption">Hope Sanctuary Home</div>
+                                </div>
+                                <div className="item">
+                                    <img src="assets/Hope-Sanctuary-donate.png" alt="Hope Sanctuary Donate" />
+                                    <div className="caption">Hope Sanctuary Donate</div>
+                                </div>
+                                <div className="item">
+                                    <img src="assets/Hope-Sanctuary-contact.png" alt="Hope Sanctuary Contact" />
+                                    <div className="caption">Hope Sanctuary Contact</div>
                                 </div>
                             </div>
                         </div>
