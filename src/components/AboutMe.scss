@@ -12,12 +12,13 @@
 }
 
 .myImage {
+    display: grid;
     grid-column: 2/5;
     grid-row: 1;
-    width: 55vw;
-    height: 120vh;
+    width: 30vw;
+    height: 70vh;
+    justify-self: center;
     border-radius: 10px;
-    justify-content: center;
     box-shadow: rgba(0, 42, 255, 0.35) 0px 5px 100px;
 }
 
@@ -28,7 +29,7 @@
     margin: 0;
     color: whitesmoke;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .aboutMe-subtitle {
@@ -38,7 +39,7 @@
     margin: 0;
     color: whitesmoke;
     text-align: center;
-
+    padding: 2rem;
 }
 
 .aboutMe-description {
