@@ -130,20 +130,20 @@
     display: block;
 }
 
-.caption {
-    position: absolute;
-    bottom: 0;
-    width: 32.1vw;
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    background: rgba(0, 0, 0, 0.3);
-    height: 7vh;
-    border-radius: 25px;
-    font-weight: 700;
-}
+// .caption {
+//     position: absolute;
+//     bottom: 0;
+//     width: 32.1vw;
+//     display: flex;
+//     font-size: 20px;
+//     justify-content: center;
+//     align-items: center;
+//     color: rgb(255, 255, 255);
+//     background: rgba(0, 0, 0, 0.3);
+//     height: 7vh;
+//     border-radius: 25px;
+//     font-weight: 700;
+// }
 
 @media only screen and (max-width: 821px) {
     .myImage {
